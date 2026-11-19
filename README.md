@@ -1,3 +1,5 @@
+l'enllac de la presentacio : https://docs.google.com/presentation/d/1OjquAitbEPNJEWSc-UCG5BYbwL56mojz2g5EwdidLsI/edit?usp=sharing
+
 # Drets d'autor, llicències i recursos multimèdia
 
 ## Grup 2 — Desenvolupament d'Aplicacions Web (DAW)
