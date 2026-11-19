@@ -670,3 +670,411 @@ Aquests coneixements ens permeten triar recursos de manera responsable i legal e
 - Pexels License: https://www.pexels.com/license/
 - Pixabay, condicions del servei: https://pixabay.com/service/terms/
 - SVG Repo, llicències: https://www.svgrepo.com/page/licensing/
+
+  ---
+
+# Documentació de les diapositives 21 a 30
+
+## 1. Introducció
+
+En aquesta última part del projecte expliquem com comprovar les llicències dels recursos que volem utilitzar en una pàgina web.
+
+També estudiem els drets d'autor relacionats amb el codi font i presentem dos exemples de programari real: Visual Studio Code i el kernel de Linux.
+
+Finalment, analitzem les bones pràctiques, una proposta de demostració pràctica i les conclusions principals del treball.
+
+L'objectiu d'aquesta part és aplicar els coneixements adquirits i entendre com podem utilitzar recursos externs de manera legal i responsable.
+
+---
+
+## 2. Diapositiva 21 — Com comprovar la llicència d'un recurs
+
+Abans d'incorporar un recurs multimèdia a una pàgina web, hem de comprovar si la seva llicència permet l'ús que volem fer.
+
+La presentació explica aquest procediment mitjançant quatre passos.
+
+### Pas 1 — Buscar el recurs
+
+Primer hem de buscar el recurs que necessitem, com ara una fotografia, un vídeo, una icona o un fitxer d'àudio.
+
+Podem utilitzar bancs de recursos com Pexels, Pixabay, Freesound o SVG Repo.
+
+És recomanable utilitzar plataformes que ofereixin informació clara sobre les llicències.
+
+### Pas 2 — Consultar la llicència
+
+Quan trobem el recurs, hem de consultar les seves condicions d'ús.
+
+No hem de suposar que un recurs es pot utilitzar lliurement només perquè es pot descarregar de manera gratuïta.
+
+### Pas 3 — Comprovar els permisos
+
+Hem de comprovar si la llicència permet:
+
+- Utilitzar el recurs en una pàgina web.
+- Fer-ne un ús comercial.
+- Modificar-lo o adaptar-lo.
+- Compartir-lo amb altres persones.
+
+Aquesta comprovació és especialment important quan desenvolupem pàgines web per a empreses o clients.
+
+### Pas 4 — Reconèixer l'autor
+
+Finalment, si la llicència exigeix atribució, hem d'indicar l'autor i la informació corresponent.
+
+Per exemple, podem afegir els crèdits al peu d'una imatge o en una secció de fonts i recursos.
+
+**Conclusió:** Comprovar la llicència abans d'utilitzar un recurs és una manera senzilla d'evitar problemes legals.
+
+---
+
+## 3. Diapositiva 22 — El codi també té drets d'autor
+
+Quan desenvolupem aplicacions web, sovint utilitzem codi creat per altres programadors.
+
+Aquest codi també pot estar protegit per drets d'autor.
+
+La diapositiva diferencia tres situacions principals.
+
+### Repositoris sense llicència
+
+Un repositori públic de GitHub no significa necessàriament que el seu codi es pugui copiar i reutilitzar lliurement.
+
+Si no hi ha una llicència, no podem assumir que tenim autorització general per modificar o distribuir el codi.
+
+### Llicències MIT, Apache i BSD
+
+Aquestes llicències són permissives i permeten reutilitzar el codi en molts tipus de projectes.
+
+També permeten usos comercials, sempre que es respectin les condicions corresponents.
+
+Per exemple, la llicència MIT exigeix conservar l'avís de copyright i el text de la llicència.
+
+### Llicència GPL
+
+La GPL és una llicència copyleft.
+
+Permet utilitzar, estudiar, modificar i distribuir programari, però estableix determinades obligacions quan es distribueixen versions modificades o obres derivades.
+
+### Com consultar la llicència a GitHub?
+
+Podem entrar en un repositori i buscar un fitxer anomenat `LICENSE` o `COPYING`.
+
+Aquest fitxer indica la llicència aplicable i permet consultar les condicions de reutilització del codi.
+
+**Conclusió:** Abans de copiar o utilitzar codi d'un altre projecte, hem de revisar la seva llicència.
+
+---
+
+## 4. Diapositiva 23 — Exemple real: Visual Studio Code
+
+En aquesta diapositiva presentem Visual Studio Code com a exemple de programari que publica informació sobre la seva llicència.
+
+Visual Studio Code és un editor de codi utilitzat per desenvolupar pàgines web i aplicacions.
+
+### Repositori de GitHub
+
+El projecte de codi font de Visual Studio Code està disponible públicament a GitHub.
+
+Podem consultar el repositori per veure el codi i la documentació del projecte.
+
+**Enllaç:** https://github.com/microsoft/vscode
+
+### Llicència MIT
+
+El repositori de codi font de Visual Studio Code utilitza la llicència MIT.
+
+Aquesta llicència permet utilitzar, modificar i distribuir el codi, fins i tot en projectes comercials, respectant les condicions establertes.
+
+Cal diferenciar la llicència del repositori de codi font de les condicions aplicables a la distribució oficial del programa.
+
+### Avisos de tercers
+
+El projecte també inclou un document anomenat `ThirdPartyNotices.txt`.
+
+Aquest document conté informació sobre components externs utilitzats pel programa i els avisos de llicència corresponents.
+
+**Enllaç:** https://github.com/microsoft/vscode/blob/main/ThirdPartyNotices.txt
+
+### Què podem aprendre d'aquest exemple?
+
+Visual Studio Code mostra la importància de documentar les llicències i identificar els components de tercers que formen part d'un projecte.
+
+**Conclusió:** Consultar el repositori i els avisos de llicència ens ajuda a comprendre les condicions de reutilització del programari.
+
+---
+
+## 5. Diapositiva 24 — Exemple real: Kernel de Linux
+
+El segon exemple de programari que presentem és el kernel de Linux.
+
+El kernel és una part fonamental del sistema operatiu Linux i és un projecte de programari lliure.
+
+### Repositori públic
+
+El codi font del kernel de Linux està disponible públicament.
+
+Podem consultar-lo al seu repositori i observar com s'organitza un projecte de programari de grans dimensions.
+
+**Enllaç:** https://github.com/torvalds/linux
+
+### Llicència GPL
+
+La llicència principal del kernel de Linux és GPL-2.0-only, amb excepcions i altres llicències aplicables a determinats fitxers.
+
+Aquesta llicència permet estudiar, modificar i distribuir el codi, però estableix obligacions de copyleft quan es distribueix programari subjecte a les seves condicions.
+
+### Fitxer COPYING
+
+El repositori conté un fitxer anomenat `COPYING`, que permet consultar la informació principal sobre la llicència.
+
+**Enllaç:** https://github.com/torvalds/linux/blob/master/COPYING
+
+### Comparació amb Visual Studio Code
+
+Visual Studio Code i el kernel de Linux són exemples útils perquè utilitzen models de llicència diferents.
+
+El repositori de Visual Studio Code utilitza MIT, una llicència permissiva.
+
+El kernel de Linux utilitza principalment GPL-2.0-only, una llicència copyleft.
+
+**Conclusió:** Dos projectes de programari poden ser públics i permetre modificacions, però tenir condicions de distribució diferents.
+
+---
+
+## 6. Diapositiva 25 — Bones pràctiques
+
+Aquesta diapositiva presenta quatre aspectes importants que hem de tenir en compte quan utilitzem recursos multimèdia en una pàgina web.
+
+### Rendiment
+
+Crear recursos propis pot ajudar a reduir la dependència de continguts externs.
+
+També pot simplificar la gestió de llicències i facilitar el manteniment del projecte.
+
+### Accessibilitat
+
+Hem de procurar que els recursos multimèdia siguin accessibles per a tots els usuaris.
+
+Per exemple:
+
+- Afegir textos alternatius a les imatges quan sigui necessari.
+- Incorporar subtítols als vídeos quan correspongui.
+- Presentar les atribucions de manera llegible.
+
+### Compatibilitat
+
+Quan combinem diferents recursos, hem de comprovar que les seves llicències siguin compatibles.
+
+Algunes llicències permeten modificacions, però exigeixen mantenir determinades condicions en les adaptacions.
+
+### Experiència d'usuari
+
+Els crèdits i les atribucions han de ser accessibles sense dificultar la lectura de la pàgina web.
+
+Podem situar-los sota les imatges o en una secció específica de crèdits.
+
+**Conclusió:** Les bones pràctiques permeten combinar el respecte als drets d'autor amb una bona experiència d'usuari.
+
+---
+
+## 7. Diapositiva 26 — Demostració pràctica
+
+En aquesta diapositiva presentem dos casos que permeten aplicar els conceptes estudiats.
+
+### Cas 1 — Comprovar una llicència a GitHub
+
+El primer cas consisteix a consultar un repositori públic de GitHub.
+
+Els passos principals són:
+
+1. Entrar al repositori.
+2. Buscar el fitxer `LICENSE`.
+3. Identificar el tipus de llicència.
+4. Comprovar si permet l'ús comercial.
+5. Consultar les condicions de modificació i distribució.
+
+Aquest procediment ens permet saber quines condicions hem de respectar abans de reutilitzar codi.
+
+### Cas 2 — Comprovar una llicència en un banc d'imatges
+
+El segon cas consisteix a buscar una imatge en un banc de recursos.
+
+Els passos principals són:
+
+1. Accedir a un banc d'imatges.
+2. Seleccionar un recurs.
+3. Consultar les condicions de la llicència.
+4. Comprovar si permet l'ús comercial.
+5. Verificar si es pot modificar.
+6. Comprovar si és necessari reconèixer l'autor.
+
+### Preguntes principals
+
+En tots dos casos hem de respondre tres preguntes:
+
+- Es pot utilitzar comercialment?
+- Es pot modificar?
+- Quina atribució cal fer?
+
+**Conclusió:** La demostració pràctica ens ajuda a aplicar les llicències en situacions habituals del desenvolupament web.
+
+---
+
+## 8. Diapositiva 27 — Idees més importants
+
+En aquesta diapositiva resumim les tres idees principals que hem après durant el projecte.
+
+### Crear recursos propis
+
+Quan creem continguts originals, podem tenir drets d'autor sobre les nostres creacions.
+
+Això ens permet decidir com volem compartir-les i sota quines condicions.
+
+### Utilitzar recursos d'altres persones
+
+Els recursos externs ens poden estalviar temps i facilitar el desenvolupament d'una pàgina web.
+
+Però abans d'utilitzar-los hem de comprovar si la seva llicència permet l'ús que volem fer.
+
+### Respectar els drets d'autor
+
+És important conèixer els nostres drets com a creadors i respectar els drets de les altres persones.
+
+Aquesta pràctica ajuda a evitar problemes legals i a treballar de manera responsable.
+
+**Conclusió:** La millor manera d'utilitzar recursos multimèdia és comprovar sempre les seves condicions d'ús.
+
+---
+
+## 9. Diapositiva 28 — Què recomanem?
+
+En aquesta diapositiva presentem les recomanacions finals per als desenvolupadors web.
+
+### Imatges i vídeos
+
+Recomanem consultar plataformes com Pexels i Pixabay.
+
+Aquestes plataformes ofereixen recursos gratuïts que permeten molts usos comercials, sempre que es respectin les seves restriccions.
+
+També podem utilitzar alternatives de pagament com Pngtree Premium.
+
+### Tipografies
+
+Recomanem Google Fonts, perquè ofereix tipografies amb llicències obertes que es poden utilitzar en projectes web.
+
+### Codi
+
+Quan utilitzem codi de GitHub, recomanem consultar sempre el fitxer `LICENSE`.
+
+Les llicències MIT i Apache són exemples de llicències permissives que poden ser adequades per a molts projectes comercials.
+
+### Recursos propis i crèdits
+
+Sempre que sigui possible, crear recursos propis pot simplificar la gestió dels drets d'autor.
+
+També recomanem mantenir una llista dels recursos externs utilitzats, amb els seus autors, fonts i llicències.
+
+**Conclusió:** Una bona selecció dels recursos ajuda a desenvolupar pàgines web de manera legal i responsable.
+
+---
+
+## 10. Diapositiva 29 — Fonts i recursos consultats
+
+En aquesta diapositiva recollim les principals fonts utilitzades per preparar la presentació.
+
+### Legislació i drets d'autor
+
+- Llei de propietat intel·lectual espanyola.
+- Creative Commons.
+- U.S. Copyright Office.
+- Copyright, Designs and Patents Act del Regne Unit.
+- Jurisprudència europea i xinesa relacionada amb la propietat intel·lectual.
+
+### Llicències i programari
+
+- Documentació oficial de GitHub.
+- Llicència MIT.
+- GNU GPL.
+- Repositori de Visual Studio Code.
+- Repositori del kernel de Linux.
+
+### Bancs de recursos multimèdia
+
+- Pexels.
+- Pixabay.
+- Pngtree.
+- Freesound.
+- SVG Repo.
+- Google Fonts.
+
+### Eines utilitzades
+
+La presentació també identifica les eines utilitzades per preparar el contingut i elaborar les diapositives.
+
+Entre aquestes eines trobem Google Slides i eines d'intel·ligència artificial per revisar informació i corregir textos.
+
+La diapositiva també inclou informació sobre les fonts de les captures i els recursos visuals utilitzats.
+
+---
+
+## 11. Diapositiva 30 — Final de la presentació
+
+La presentació acaba amb un missatge d'agraïment.
+
+**Gràcies! Preguntes?**
+
+Aquesta diapositiva serveix per tancar l'exposició i permetre que el professor o els companys plantegin preguntes sobre el treball.
+
+---
+
+## 12. Resum de les diapositives 21 a 30
+
+En aquesta última part hem explicat com comprovar la llicència d'un recurs abans d'utilitzar-lo.
+
+També hem estudiat els drets d'autor aplicats al codi font i hem presentat dos exemples de programari real: Visual Studio Code i el kernel de Linux.
+
+Hem identificat bones pràctiques relacionades amb el rendiment, l'accessibilitat, la compatibilitat de llicències i l'experiència d'usuari.
+
+Finalment, hem presentat una proposta de demostració pràctica i les recomanacions principals per utilitzar recursos multimèdia en projectes web.
+
+La conclusió general és que els desenvolupadors han de conèixer les llicències i respectar les condicions dels recursos que incorporen a les seves pàgines web.
+
+---
+
+## 13. Fonts de consulta
+
+- Llei de propietat intel·lectual: https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930
+- Creative Commons: https://creativecommons.org/
+- GitHub Docs — Licensing a repository: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+- Visual Studio Code: https://github.com/microsoft/vscode
+- Visual Studio Code — Third Party Notices: https://github.com/microsoft/vscode/blob/main/ThirdPartyNotices.txt
+- Kernel de Linux: https://github.com/torvalds/linux
+- Kernel de Linux — COPYING: https://github.com/torvalds/linux/blob/master/COPYING
+- GNU GPL 2.0: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+- Pexels: https://www.pexels.com/license/
+- Pixabay: https://pixabay.com/service/terms/
+- Freesound: https://freesound.org/
+- SVG Repo: https://www.svgrepo.com/page/licensing/
+- Google Fonts: https://fonts.google.com/
+
+---
+
+## 14. Estat final del projecte
+
+**Nom del projecte:** Drets d'autor, llicències i recursos multimèdia.
+
+**Grup:** 2 — Ayoub Bouziane i David Seron.
+
+**Presentació:** 30 diapositives.
+
+**Documentació del README:**
+
+- Primera part: diapositives 1 a 6.
+- Segona part: diapositives 7 a 12.
+- Tercera part: diapositives 13 a 20.
+- Quarta part: diapositives 21 a 30.
+
+La documentació recull els conceptes principals, les explicacions, els exemples i les conclusions de la presentació.
+
+El treball s'ha desenvolupat en equip i el repositori de GitHub permet conservar la documentació i registrar les aportacions dels membres mitjançant commits.
